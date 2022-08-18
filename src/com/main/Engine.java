@@ -45,4 +45,11 @@ public class Engine {
     public void setMaxRpm(int maxRpm) {
         this.maxRpm = maxRpm;
     }
+
+    public void display(){
+        System.out.println("modelNo = " + modelNo);
+        System.out.println("displacement = " + displacement);
+        System.out.println("power = " + power);
+        System.out.println("maxRpm = " + maxRpm);
+    }
 }
